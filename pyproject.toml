@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "web-scraping"
+version = "0.1.0"
+description = ""
+authors = ["KubaGarncarek <kubagarncarek47@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
